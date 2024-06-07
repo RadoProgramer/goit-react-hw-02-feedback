@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>React Homework Template (Vite)</h1>
+      <h1>goit-react-hw-02-feedback (Vite)</h1>
     </>
   );
 }
