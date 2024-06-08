@@ -4,7 +4,7 @@ import Statistics from "./Statistics";
 import Section from "./Section";
 import Notification from "./Notification";
 
-class Feedback extends Component {
+export default class Feedback extends Component {
   state = {
     good: 0,
     neutral: 0,
@@ -58,5 +58,3 @@ class Feedback extends Component {
     );
   }
 }
-
-export default Feedback;

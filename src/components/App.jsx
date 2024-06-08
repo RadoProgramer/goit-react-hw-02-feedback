@@ -1,11 +1,11 @@
-import React from "react";
+
 import Feedback from "./Feedback";
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <>
       <Feedback />
-    </div>
+    </>
   );
 };
 
