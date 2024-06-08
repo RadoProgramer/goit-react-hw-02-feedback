@@ -1,11 +1,12 @@
-import Contacts from "./Feedback";
+import React from "react";
+import Feedback from "./Feedback";
 
-function App() {
+const App = () => {
   return (
-    <>
+    <div>
       <Feedback />
-    </>
+    </div>
   );
-}
+};
 
 export default App;
